@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="style.css" as="style"
+            onload="this.rel='stylesheet'">
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <title>football news app</title>
+    </head>
+    <body>
+        <nav>
+            <h1><span>f</span>news</h1>
+            <ul>
+                <li id="f" class="active" onclick="navItem('european football')">football</li>
+                <li id="b" onclick="navItem('basketball')">basketball</li>
+            </ul>
+            <input type="text">
+            <i id="submit" class='bx bx-search'></i>
+        </nav>
+        <section class="section1">
+            <div class="card-cont">
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
